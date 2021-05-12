@@ -49,7 +49,7 @@ export default {
                 },
                 {
                 "year":"09.2017 - 08.2020",
-                "title":"Pfeiffer Vacuum SAS, Annecy",
+                "title":"Vantage",
                 "content":"Web API, Vuejs, JavaScript, HTML, CSS, Angualar1.5"
                 },
                 {
