@@ -2,7 +2,7 @@
   <div>
     <div class="photo">
         <a>
-            <img :src="getImgUrl('photo.jpg')" alt="photo"/>
+            <img :src="getImgUrl('Photo.jpg')" alt="photo"/>
         </a>
     </div>
   </div>
@@ -26,8 +26,8 @@ export default {
             outline: none;
         }
         img {
-            width: 200px;
-            height: 200px;
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             display: inline-block;
         }

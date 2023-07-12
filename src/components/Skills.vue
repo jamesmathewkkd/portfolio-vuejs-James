@@ -45,6 +45,8 @@
                     { "title": "Git/Github", "img": "Octocat.png" }, 
                     { "title": "SQL server", "img": "sql.png" },
                     { "title": "Bootstrap", "img": "bootstrap.png" },
+                    { "title": "Microsoft Azure", "img": "microsoft_azure.jpg" },
+                    { "title": "Influx db", "img": "Influxdb.png" }
                     ],
                      facebooklink:'https://www.facebook.com/james.mathew.9889',
             }

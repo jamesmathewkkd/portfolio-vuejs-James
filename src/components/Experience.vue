@@ -24,6 +24,25 @@
 			</div>
 		</div>
 	</AnimateOnVisible>
+
+  <AnimateOnVisible name="fadeDown" :duration="1">
+      <Title
+        class="title"
+        :title="'Company'"
+      />
+    </AnimateOnVisible>
+
+    <AnimateOnVisible name="fadeUp" :duration="1">
+		<div class="container-fluid">
+			<div class="row">
+				<ExperienceColumn
+					:posts="Company"
+					class="col-12 col-md"
+				/>
+			</div>
+		</div>
+	</AnimateOnVisible>
+
   </section>
 </template>
 
@@ -42,6 +61,11 @@ export default {
     return{
     data:"james",
     professional:[
+                {
+                "year":"09.2021 - Present",
+                "title":"Easy Connect",
+                "content":".Net/Microsoft azure"
+                },
                 {
                 "year":"08.2020 - 11.2020",
                 "title":"Pennsylvania Front end Tool",
@@ -73,6 +97,18 @@ export default {
               "year":"2014 - 2016",
               "title":"MCA / Computer Science",
               "content":"Santhigiri college of computer science, Mahatma Gandhi University, Kerala, India"
+              }
+              ],
+            Company:[
+             {
+              "year":"2021 Sep - Present",
+              "title":"Nexer Group",
+              "content":"Lindholmspiren 9, 417 56 Göteborg"
+              },
+              {
+              "year":"2016 Dec - 2020 Dec",
+              "title":"Naico Information Technology Services Private Limited",
+              "content":"SmartCity Kochi"
               }
               ]
     }
