@@ -25,7 +25,7 @@
 		</div>
 	</AnimateOnVisible>
 
-  <AnimateOnVisible name="fadeDown" :duration="1">
+  <AnimateOnVisible style="margin-top:10px" name="fadeDown" :duration="1">
       <Title
         class="title"
         :title="'Company'"
@@ -101,12 +101,12 @@ export default {
               ],
             Company:[
              {
-              "year":"2021 Sep - Present",
+              "year":"2021 September - Present",
               "title":"Nexer Group",
               "content":"Lindholmspiren 9, 417 56 Göteborg"
               },
               {
-              "year":"2016 Dec - 2020 Dec",
+              "year":"2016 December - 2020 December",
               "title":"Naico Information Technology Services Private Limited",
               "content":"SmartCity Kochi"
               }

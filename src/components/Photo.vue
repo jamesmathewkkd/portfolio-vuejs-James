@@ -2,7 +2,7 @@
   <div>
     <div class="photo">
         <a>
-            <img :src="getImgUrl('Photo.jpg')" alt="photo"/>
+            <img :src="getImgUrl('photo.jpg')" alt="photo"/>
         </a>
     </div>
   </div>
