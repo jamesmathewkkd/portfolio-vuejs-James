@@ -1,11 +1,6 @@
 <h1 align="center">VueJS portfolio template</h1>
 
 > Portfolio template using VueJs framework, CosmicJS API and Bootstrap
-
-<p align="center"><strong> Live demo with my personnal data <a href="https://hugobollon.me">here</a> ! </strong></p>
-
-<img align="center" src="doc/portfolio-vuejs_demo.gif" alt="portfolio-vuejs preview"></img>
-
 ---
 
 ## Table of Contents
